@@ -15,17 +15,47 @@ body {
 img {
     height: 300px;
     width: fit-content;
-    margin: 5px;
+    margin: 8px;
      /* Animacion para zoom */
     transition: transform .2s;
 }
 
 /* ZOOM */
-img:hover{
+/* img:hover{
+    transform: scale(1.1);
+} */
+
+.img1:hover {
+    border:solid rgb(226, 167, 99);
     transform: scale(1.1);
 }
 
-footer{
+.img2:hover {
+    border:solid rgb(135, 200, 216);
+    transform: scale(1.1);
+}
+
+.img3:hover {
+    border:solid rgb(231, 229, 114);
+    transform: scale(1.1);
+}
+
+.img4:hover {
+    border:solid rgb(223, 130, 130);
+    transform: scale(1.1);
+}
+
+.img5:hover {
+    border:solid rgb(113, 173, 98);
+    transform: scale(1.1);
+}
+
+.img6:hover {
+    border:solid rgb(98, 115, 173);
+    transform: scale(1.1);
+}
+
+footer {
     text-align: center;
 }
 
